@@ -1,0 +1,283 @@
+header{
+	width: 100%;
+}
+h1{
+	text-align: center;
+	color: #3C496B;
+	text-transform: uppercase;
+}
+section{
+	width: 100%;
+	overflow: hidden;
+}
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: #192951;
+	color: white;
+	padding-left: 4%;
+	padding-top: 2%;
+	font-size: 12px;
+}
+nav{
+	width: 100%;
+	height: 64px;
+	padding: 2% 0% 0% 30%;
+	background-color: white;
+}
+a{
+	text-decoration: none;
+	color:;
+	padding-right: 8%;
+	color: #DFE0E7;
+}
+.title-danza{
+	background-color: white;
+}
+.fondo{
+	width: 100%;
+	height: 387px;
+	background-image: url("../img/dance_1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.title{
+	width: 32%;
+	height: 130px;
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+	padding: 4% 0% 0% 11%;
+	text-transform: uppercase;
+}
+.texto-1{
+	width: 25%;
+	height: 130px;
+	color: white;
+	padding-left: 11%;
+	padding-top: 1%;
+	font-size: 12px;
+	text-align: left;
+	text-transform: none;
+}
+.boton-inscribete{
+	width: 10%;
+	height: 40px;
+	background-color:#030D1B;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 1%;
+	color:white;
+	margin-left: 150px;
+}
+.main{
+	width: 100%;
+	background-image: url("../img/textura_2.jpg");
+	background-size: 30%;
+}
+.nosotros{
+	width: 600px;
+	text-align: center;
+	font-size: 22px;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+ img{
+    width: 100%;
+  }
+  .decoration-1{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .boton-clases{
+  	width: 25%;
+  	height: 50px;
+  	background-color: #192951;
+  	color: white;
+  	text-align: center;
+  	padding-top: 1%;
+  	border-radius: 2%;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+.instructores{
+	padding-top: 5%;
+
+}
+.grilla-6{
+	padding: 0px;
+	border: 2px solid #424F70;
+	position: relative;
+}
+.grilla-6-1{
+	border-top:2px solid #424F70;
+	border-right: 2px solid #424F70;
+	border-bottom:2px solid #424F70; 
+}
+.fondo2{
+	height: 305px;
+	background-image: url("../img/instructor_4.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.fondo3{
+	height: 305px;
+	background-image: url("../img/profesor_9.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.boton-intructores{
+	width: 40%;
+	height: 70px;
+	background-color: #192951;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 2%;
+	margin-left: 30%;
+	margin-top: -7.1%;
+	position: relative;
+}
+.poema{
+	width: 60%;
+	height: 100px;
+	text-align: center;
+	font-style: italic;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 35px;
+	margin-top: 5%;
+}
+.visitanos{
+	background-color: #192951;
+}
+.contactanos{
+	width: 100%;
+	height: 500px;
+	background-image: url("../img/shoes_1.jpg");
+	background-size: 60%;
+	background-position: 500px 0px;
+	background-repeat: no-repeat;
+}
+iframe{
+	width: 80%;
+	margin-top: 15%;
+	margin-bottom: 10%;
+}
+ul li{
+	list-style: none;
+	font-size: 13px;
+	margin-bottom: 1%;
+}
+h3{
+	margin-bottom: 3%;
+}
+.texto-visitanos{
+	width: 75%;
+	color: white;
+	padding-top: 15%;
+	padding-left: 10%;
+	text-align: left;
+}
+.text-lorem{
+	margin-bottom: 10%;
+	font-size: 14px;
+}
+.title-contactanos{
+	margin-left: 10%;
+	margin-top: 5%;
+}
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html{    
+  background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
+  background-size: cover;
+  height:100%;
+}
+
+#feedback-page{
+	text-align:center;
+}
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
+#form-div {
+
+	padding-right:35px;
+	padding-top:10px;
+	padding-bottom:50px;
+	width: 40%;
+	position: absolute;
+	margin-left: 10%;
+  	margin-top:30px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  	font-weight:500;
+	font-size: 15px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: white;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 1px solid #E8E6E6;
+}
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+input:hover, textarea:hover{
+	background-color:white;
+}
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%; 
+	border: 1px solid #192951;
+	background-color: #192951;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  	margin-top:-4px;
+}		
+
