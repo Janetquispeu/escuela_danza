@@ -1,71 +1,129 @@
-*{
-	box-sizing: border-box;
-	padding: 0px;
-	margin: 0px;
+/* View principal */
+.view-principal {
+	background-size: cover;
+	background-image: url(../img/dance_1.jpg);
+	padding: 6% 0px 10% 9%;
 }
-.container {
-  width: 100%;
-  overflow: hidden;
-  margin: 0px auto;
+
+.view-principal .texto-view h1 {
+	font-size: 5em;
+	color: rgb(195, 198, 197);
 }
-.row {
-	margin-left: 0px;
-	margin-right: 0px;
+
+.view-principal .texto-view p {
+	width: 20%;
+	margin-top: 20px;
+}
+
+.btn-inscribete {
+	display: inline-block;
+	margin-top: 30px;
+	color: white;
+	text-decoration: none;
+	padding: 13px 20px;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 3px;
+	transition:all 0.3s ease-in-out;
+}
+
+.btn-inscribete:hover {
+	background-color: white;
+	color: #192951;
+	font-weight: bold;
+}
+
+/* banner */
+
+.banner {
+	background-image: url(../img/textura_2.jpg);
+	padding:5% 25% 8%;
+	text-align: center;
+}
+
+.banner .texto {
+	font-size: 1.8em;
+}
+
+.separador {
+	display: block;
+	width: 150px;
+  margin: 0 auto;
+  margin-top: -4%;
+}
+
+.btn-oferta {
+	display: inline-block;
+	padding: 20px 30px;
+	background-color: #192951;
+	color: white;
+	border-radius: 3px;;
+	border-radius: 5px;
+	font-size: 20px;
+	transition:all 0.3s ease-in-out;
+}
+.boton:hover{
+	background-color: rgba(55, 83, 152, 1);;
+}
+
+/* instructores */
+
+.instructores {
 	position: relative;
-}
-.row:before, .row:after{
-  content: " ";
-  display: table;
-}
-.row:after {
-  clear: both;
+	margin: 0px;
+	overflow: hidden;
 }
 
-[class*="gr-"] {
-	min-height: 7px;
-	padding: 0 14px;
-	float: left;
+.instructores .col-6-12 {
+	background-color: rgb(220, 222, 224);
+	height: 400px;
+	border: 2px solid #192951;
+	padding: 0px;
 }
-.gr-1 {
-  width: 8.33333%; }
 
-.gr-2 {
-  width: 16.66667%; }
+.instructores:nth-child(1) {
+	border-right: none;
+}
 
-.gr-3 {
-  width: 25%; }
-.gr-4 {
-  width: 33.33333%; }
+.instructores img {
+	transition: all .5s ease-in-out;
+}
 
-.gr-5 {
-  width: 41.66667%; }
-.gr-6 {
-  width: 50%; }
+.instructores img:hover {
+	transform: scale(1.1);
+}
 
-.gr-7 {
-  width: 58.33333%; }
-.gr-8 {
-  width: 66.66667%; }
+.boton-instructores {
+	display: inline-block;
+	position: absolute;
+	padding: 20px 40px;
+	font-size: 1.5em;
+	bottom: 0px;
+	right: 38%;
+	letter-spacing: 1px;
+	background-color:#192951;
+	color: white;
+	border-radius: 3px;
+}
 
-.gr-9 {
-  width: 75%; }
+.frase{
+	background-attachment: fixed;
+}
 
-.gr-10 {
-  width: 83.33333%; }
+.separador-frase {
+	text-align: center;
+}
 
-.gr-11 {
-  width: 91.66667%; }
+.separador-frase img {
+	width: 14%;
+	margin:5% 0 0;
+}
 
-.gr-12 {
-  width: 100%; }
-.state-default .gr-0, .state-default .gr-1, .state-default .gr-2, .state-default .gr-3, .state-default .gr-4, .state-default .gr-5, .state-default .gr-6, .state-default .gr-7, .state-default .gr-8, .state-default .gr-9, .state-default .gr-10, .state-default .gr-11, .state-default .gr-12 {
-  display: inline-block;
-  min-height: 1px;
-  float: left;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  vertical-align: top;
-  padding-right: 10px;
-  padding-left: 10px; }
- 
+.mapa {
+  background-color: #192951;
+}
+
+.mapa div {
+	margin: 0 auto;
+	text-align: left;
+	padding:3% 1%;
+}
